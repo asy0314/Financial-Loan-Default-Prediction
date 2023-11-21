@@ -3,9 +3,13 @@ Binary classification using Logistic, Lasso, MLP, RNN
 
 # Models
 Logistic_Regression_L2_ALL: Logistic regression with all features; base line to compare to other models
+
 Logistic_Regression_L1_ALL: Lasso to select essential features
+
 Logistic_Regression_L2_Select: Logistic regression with selected features by Lasso
+
 NN_Multilayer_Perceptron: MLP to reflect cross relationships between features
+
 RNN: Recurrent Neural Network to reflect the sequential data
 
 # Folder Structure
