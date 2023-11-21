@@ -1,5 +1,5 @@
 # Financial-Loan-Default-Prediction
-Binary classification using Logistic, Lasso, MLP, RNN
+Binary classification using Logistic (Lasso) Regression, MLP, RNN
 
 # Models
 Logistic_Regression_L2_ALL: Logistic regression with all features; base line to compare to other models
