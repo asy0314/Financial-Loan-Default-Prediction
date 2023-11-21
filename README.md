@@ -28,7 +28,7 @@ The dataset is from Kaggle: [BankCreditDefault](https://www.kaggle.com/datasets/
 
 The data is sequential(length 1 to 20) for each unique ID. 
 
-I used last only data for Logistic, Lasso, and MLP, while I used full sequential data for RNN. 
+I used last only data for Logistic (Lasso) Regression and MLP, while I used full sequential data for RNN. 
 
 ### Preprocessing
 Used standard scaler for interger features, and one hot encoder for binary features. 
