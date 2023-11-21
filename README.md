@@ -33,6 +33,10 @@ I used last only data for Logistic, Lasso, and MLP, while I used full sequential
 ### Preprocessing
 Used standard scaler for interger features, and one hot encoder for binary features. 
 
+Make 'small', 'medium', 'full' numpy for initial, mid-way, final experiments in each folder.
+
 For sequential preprocessing, I used h5py with datatype, uint8.
 
-Make 'small', 'medium', 'full' numpy for initial, mid-way, final experiments in each folder.
+'scale_params.pkl' contains 'columns', 'integer_features', 'binary_features', 'min', 'max', 'mean', 'var', and 'std'. 
+
+To creade 'scale_params.pkl', adopted and modified the class [RunningStates](https://stackoverflow.com/a/17637351)
