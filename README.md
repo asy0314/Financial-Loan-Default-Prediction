@@ -14,9 +14,13 @@ RNN: Recurrent Neural Network to reflect the sequential data
 
 # Folder Structure
 Current - Data  - LastOnlyProcessed  - small
+
                                      - medium
+                                     
                                      - full
+                                     
                 - Seq: 'seq_uint8_{i}.h5', 'scale_params.pkl'
+                
         - Model
 
 # Dataset
