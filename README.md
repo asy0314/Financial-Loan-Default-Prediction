@@ -13,15 +13,15 @@ NN_Multilayer_Perceptron: MLP to reflect cross relationships between features
 RNN: Recurrent Neural Network to reflect the sequential data
 
 # Folder Structure
-Current / Data  / LastOnlyProcessed  / small
+Current - Data  - LastOnlyProcessed  - small
 
-                                     / medium   
+                                     - medium   
                                      
-                                     / full
+                                     - full
                                      
-                / Seq: 'seq_uint8_{i}.h5', 'scale_params.pkl'
+                - Seq: 'seq_uint8_{i}.h5', 'scale_params.pkl'
                 
-        / Model
+        - Model
 
 # Dataset
 The dataset is from Kaggle: [BankCreditDefault](https://www.kaggle.com/datasets/kornilovag94/bank-credit-default-loan-default)
