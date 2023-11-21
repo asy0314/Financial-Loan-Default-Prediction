@@ -33,7 +33,7 @@ I used last only data for Logistic, Lasso, and MLP, while I used full sequential
 ### Preprocessing
 Used standard scaler for interger features, and one hot encoder for binary features. 
 
-Make 'small', 'medium', 'full' numpy for initial, mid-way, final experiments in each folder.
+Make 'small', 'medium', 'full' numpy file for initial, mid-way, final experiments in each folder.
 
 For sequential preprocessing, I used h5py with datatype, uint8.
 
