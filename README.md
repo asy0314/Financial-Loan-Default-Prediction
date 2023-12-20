@@ -1,5 +1,5 @@
 # Financial-Loan-Default-Prediction
-Binary classification using Logistic (Lasso) Regression, MLP, RNN
+Binary classification using Logistic (Lasso) Regression, MLP, RNN to classify whether an applicant will be default or not
 
 # Models
 Logistic_Regression_L2_ALL: Logistic regression with all features; base line to compare to other models
@@ -26,7 +26,7 @@ Current - Data  - LastOnlyProcessed  - small
 # Dataset
 The dataset is from Kaggle: [BankCreditDefault](https://www.kaggle.com/datasets/kornilovag94/bank-credit-default-loan-default)
 
-The data is sequential(length 1 to 20) for each unique ID. 
+The data is non-periodinc sequential(different lengths 1 to 20) for each unique ID. 
 
 I used last only data for Logistic (Lasso) Regression and MLP, while I used full sequential data for RNN. 
 
